@@ -4,7 +4,7 @@ from vk_api.bot_longpoll import VkBotLongPoll
 from vk_api.bot_longpoll import VkBotEventType
 
 
-vk_session_group = d58eebe7a87391d66a25f71930b31c7ded08798cc60eab73ca3c63b3f505a7adc2d629566d843f09e3101'') # Токен сообщества 
+vk_session_group = ('') # Токен сообщества 
 vk = vk_session_group.get_api()
 longpoll_group = VkBotLongPoll(vk_session_group, 1234) # id сообщества 
 print('Бот успешно запущен') # Текст отображаемый в консоли 
